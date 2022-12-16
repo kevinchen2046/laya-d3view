@@ -1,0 +1,15 @@
+.rpt2_cache
+node_modules/
+.laya/chrome
+.resmanifest
+
+release/
+/bin/*
+!/bin/libs/
+!/bin/fileconfig.json
+!/bin/index.html
+!/bin/index.js
+!/bin/unpack.json
+!/bin/version.json
+
+
