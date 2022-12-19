@@ -16,6 +16,8 @@ export default class GameUI extends ui.test.TestSceneUI {
         Laya.stage.bgColor = "#361c1c";
 
         this.list = this.getChildByName("list") as Laya.List;
+        this.list.x=Laya.stage.width/2-this.list.width/2;
+        this.list.y=Laya.stage.height/2-this.list.height/2;
         var data: Array<any> = [];
         for (var m: number = 0; m < 20; m++) {
             data.push({ m_label: "No." + m });

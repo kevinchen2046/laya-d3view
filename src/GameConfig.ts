@@ -4,8 +4,8 @@ import GameUI from "./script/GameUI"
 * 游戏初始化配置;
 */
 export default class GameConfig{
-    static width:number=640;
-    static height:number=1136;
+    static width:number=1136;
+    static height:number=640;
     static scaleMode:string="fixedwidth";
     static screenMode:string="none";
     static alignV:string="top";
