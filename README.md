@@ -40,7 +40,7 @@ view.addToLayer("panel1", sprite3d);
 sprite3d.pos(x,y);//这里的坐标是相对于view的2d坐标
 
 //2d容器操作
-let sprite=new D3Sprite();
+let sprite=new Sprite();
 view.addToLayerTop("panel1", sprite);
 sprite.pos(x,y);//这里的坐标是相对于view的2d坐标
 
