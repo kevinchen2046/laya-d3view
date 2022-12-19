@@ -13,7 +13,7 @@
 
 ## 演示
 
-[点击跳转](http://www.baidu.com)
+[点击跳转](https://kevinchen2046.github.io/demo/laya-d3view)
 
 ![img](./preview.png)
 
